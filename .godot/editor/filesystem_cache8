@@ -1,0 +1,32 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1704379459
+default_env.tres::Environment::-1::1704379234::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1593548172::0::1::::<><>::
+HUD.gd::GDScript::-1::1704379234::0::1::::<>CanvasLayer<>::
+HUD.tscn::PackedScene::-1::1704379234::0::1::::<><>::res://HUD.gd<>res://dodge_assets/fonts/Xolonium-Regular.ttf
+icon.png::CompressedTexture2D::7011438526652872965::1574099168::1704379253::1::::<><>::
+Main.gd::GDScript::-1::1704379234::0::1::::<>Node<>::
+Main.tscn::PackedScene::-1::1704379234::0::1::::<><>::res://Main.gd<>res://Mob.tscn<>res://Player.tscn<>res://HUD.tscn<>res://dodge_assets/art/House In a Forest Loop.ogg<>res://dodge_assets/art/gameover.wav
+Mob.gd::GDScript::-1::1704379234::0::1::::<>RigidBody2D<>::
+Mob.tscn::PackedScene::-1::1704379234::0::1::::<><>::res://Mob.gd<>res://dodge_assets/art/enemyWalking_1.png<>res://dodge_assets/art/enemyWalking_2.png<>res://dodge_assets/art/enemyFlyingAlt_1.png<>res://dodge_assets/art/enemyFlyingAlt_2.png<>res://dodge_assets/art/enemySwimming_1.png<>res://dodge_assets/art/enemySwimming_2.png
+Player.gd::GDScript::-1::1704379234::0::1::::<>Area2D<>::
+Player.tscn::PackedScene::-1::1704379234::0::1::::<><>::res://Player.gd<>res://dodge_assets/art/playerGrey_walk1.png<>res://dodge_assets/art/playerGrey_walk2.png<>res://dodge_assets/art/playerGrey_up1.png<>res://dodge_assets/art/playerGrey_up2.png
+README.md::TextFile::-1::1704376712::0::1::::<><>::
+::res://dodge_assets/::1609873931
+::res://dodge_assets/art/::1704379253
+enemyFlyingAlt_1.png::CompressedTexture2D::4172531451851983775::1510184330::1704379253::1::::<><>::
+enemyFlyingAlt_2.png::CompressedTexture2D::4779659771174036981::1510184340::1704379253::1::::<><>::
+enemySwimming_1.png::CompressedTexture2D::1663985537264178346::1510183525::1704379253::1::::<><>::
+enemySwimming_2.png::CompressedTexture2D::3764359219924093519::1510183477::1704379253::1::::<><>::
+enemyWalking_1.png::CompressedTexture2D::5099574617143860399::1510184223::1704379253::1::::<><>::
+enemyWalking_2.png::CompressedTexture2D::3105001321335103637::1510184238::1704379253::1::::<><>::
+gameover.wav::AudioStreamWAV::6332410060117469558::1503176804::1704379253::1::::<><>::
+House In a Forest Loop.ogg::AudioStreamOggVorbis::7611954165530847641::1503176804::1704379253::1::::<><>::
+playerGrey_up1.png::CompressedTexture2D::4288905061611170755::1510184435::1704379253::1::::<><>::
+playerGrey_up2.png::CompressedTexture2D::3077438335905662164::1510184444::1704379253::1::::<><>::
+playerGrey_walk1.png::CompressedTexture2D::8129748344334883910::1510184510::1704379253::1::::<><>::
+playerGrey_walk2.png::CompressedTexture2D::895800798503695558::1510184520::1704379253::1::::<><>::
+::res://dodge_assets/fonts/::1704379253
+FONTLOG.txt::TextFile::-1::1503176804::0::1::::<><>::
+LICENSE.txt::TextFile::-1::1503176804::0::1::::<><>::
+Xolonium-Regular.ttf::FontFile::4349870822863976643::1503176804::1704379253::1::::<><>::

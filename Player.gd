@@ -1,7 +1,7 @@
 extends Area2D
 
 signal hit
-export var speed = 400
+@export var speed = 400
 var screen_size
 
 func _ready():
@@ -21,21 +21,21 @@ func _process(delta):
 		velocity.y -= 1
 	if velocity.length() > 0:
 		velocity = velocity.normalized() * speed
-		$AnimatedSprite.play()
+		$AnimatedSprite2D.play()
 	else:
-		$AnimatedSprite.stop()
+		$AnimatedSprite2D.stop()
 	
 	position += velocity * delta
 	position.x = clamp(position.x, 0, screen_size.x)
 	position.y = clamp(position.y, 0, screen_size.y)
 	
 	if velocity.x != 0:
-		$AnimatedSprite.animation = "direito"
-		$AnimatedSprite.flip_v = false
-		$AnimatedSprite.flip_h = velocity.x < 0
+		$AnimatedSprite2D.animation = "direito"
+		$AnimatedSprite2D.flip_v = false
+		$AnimatedSprite2D.flip_h = velocity.x < 0
 	elif velocity.y != 0:
-		$AnimatedSprite.animation = "cima"
-		$AnimatedSprite.flip_v = velocity.y > 0
+		$AnimatedSprite2D.animation = "cima"
+		$AnimatedSprite2D.flip_v = velocity.y > 0
 	
 	pass
 
